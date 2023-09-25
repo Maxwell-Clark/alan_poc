@@ -1,0 +1,27 @@
+{
+  "name": "alan_poc",
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@alan-ai/alan-sdk-web": "^1.8.53",
+    "openai": "^3.1.0",
+    "pinia": "^2.0.28",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^8.3.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6",
+    "vite": "^4.0.0",
+    "vue-loader": "^16.8.3"
+  }
+}
